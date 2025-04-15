@@ -1,0 +1,30 @@
+
+Second Report for a Student Chosen Project
+
+Do the following:
+
+1. In the table below, list the dates, amount of time spent, and description of the work that you did on your project. Follow the example that is in the first row of the table below. Include the time you spent doing any of the following:
+    a. discussing your project with your teacher, tutor, or fellow students
+    b. researching by reading articles and watching applicable videos
+    c. designing your project by drawing diagrams and other applicable documents
+    d. writing experimental code
+    d. writing code for your project
+    e. writing test functions
+    f. debugging your code
+    g. any other activity that helped you complete your project
+
+
+=================================
+            Time Spent
+   Date       (hours)   Description of Work
+----------  ----------  -------------------------
+2025-04-10      3.0     Worked on analyzing student answer sheets with OCR (Optical Character Recognition) and image processing.
+2025-04-11      2.5     Implemented functionality for comparing student answers with correct answers.
+2025-04-12      2.0     Debugged issues related to OCR accuracy in processing scanned answer sheets.
+2025-04-13      2.5     Designed the user interface for file upload and integrated buttons for downloading correct answer sheets.
+2025-04-13      2.0     Wrote test functions to validate image processing and answer comparison.
+2025-04-13      1.0     Tested program with multiple student answer sheets and ensured results were accurate.
+=================================
+
+
+2. In Canvas, submit this completed text file, your Python program, your Python test file, and any project data files such as .txt and .csv files and link to video walkthrough if needed.

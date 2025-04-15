@@ -1,0 +1,107 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+
+
+1. What is the title of your program?
+
+Automatic Grading System for Educators
+
+
+
+2. What real-world problem will your program address or help to solve?
+
+The program will help educators save time by automating the grading process. Teachers often spend a significant amount of time grading exams and assignments manually. This system will automatically compare students' answers to the correct ones, calculate grades, and provide feedback, reducing the administrative burden on teachers and allowing them to focus more on teaching.
+
+
+
+3. What will you learn from developing this program?
+
+From developing this program, I will learn how to:
+
+Implement a solution to automate repetitive tasks.
+
+Work with text file input/output to read and process student answers and correct answers.
+
+Develop functions that can handle lists of data, such as student answers and grading criteria.
+
+Explore ways to generate reports or feedback based on computational results.
+
+Gain experience in creating reusable Python functions, focusing on those that are modular and easily testable.
+
+
+
+4. What Python modules will your program use?
+
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)
+
+    csv: For reading and writing CSV files (storing answers and grading results).
+
+datetime: To timestamp when reports or grades are generated.
+
+random: To simulate a randomized answer key (if needed) or for generating mock student answers for testing.
+
+tkinter: For creating a simple graphical user interface (GUI) for teachers to load answer files and view results, if applicable.
+
+math: For any additional math-related operations (e.g., calculating percentages or handling grading scale transformations).
+
+pytest: For writing test functions to verify the program’s accuracy and behavior.
+
+
+
+5. List the names of functions you will need?
+
+    (Remember that the most reusable functions don't get user input and
+    don't print results but instead have parameters and return a result.
+    Functions that get user input and print results are important and do
+    useful work but are not easily reusable.)
+
+    (Remember also that it's hard to test functions that get user input
+    and print results. It's easy to test functions that don't get user
+    input and don't print results but instead have parameters and return
+    a result. Therefore, you should write most of your program functions
+    to have parameters and return a result.)
+
+
+load_student_answers(file_path): Loads student responses from a specified file.
+
+compare_answers(correct_answers, student_answers): Compares the correct answers to student answers and returns a list of results (correct or incorrect).
+
+calculate_grade(correct_answers, student_answers): Calculates the grade based on the number of correct answers.
+
+generate_report(grades, student_names): Generates a report with each student’s grade and feedback.
+
+generate_feedback(correct_answers, student_answers): Provides feedback on the incorrect answers (optional, can be extended).
+
+save_results_to_file(grades, output_file): Saves the generated grades and feedback to a file for later reference.
+
+
+
+6. List the names of the test functions you will write.
+
+
+test_load_correct_answers(): Tests whether the load_correct_answers function correctly loads answers from a file.
+
+test_load_student_answers(): Tests whether the load_student_answers function correctly loads student responses from a file.
+
+test_compare_answers(): Tests if the program accurately compares correct answers and student responses.
+
+test_calculate_grade(): Verifies that grades are calculated correctly based on the correct answers and student responses.
+
+test_generate_report(): Ensures that the generate_report function produces a valid report.
+
+test_generate_feedback(): Tests whether feedback is generated accurately for incorrect answers (if applicable).
+
+test_save_results_to_file(): Ensures that the save_results_to_file function saves the correct output to the specified file.
+
+
+
